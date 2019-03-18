@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [11/Mar/2019:23:33:52 -0700] "GET /test/hello/ HTTP/1.1" 404 973 http-bio-8080-exec-2 23
+0:0:0:0:0:0:0:1 - - [11/Mar/2019:23:40:33 -0700] "GET /test/rest/hello/ HTTP/1.1" 500 4497 http-bio-8080-exec-1 64
+0:0:0:0:0:0:0:1 - - [11/Mar/2019:23:42:54 -0700] "GET /test/rest/hello/ HTTP/1.1" 500 4497 http-bio-8080-exec-3 45
+0:0:0:0:0:0:0:1 - - [11/Mar/2019:23:42:59 -0700] "GET /test HTTP/1.1" 302 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [11/Mar/2019:23:42:59 -0700] "GET /test/ HTTP/1.1" 200 52 http-bio-8080-exec-5 410
+0:0:0:0:0:0:0:1 - - [11/Mar/2019:23:43:15 -0700] "GET /test/rest HTTP/1.1" 500 4497 http-bio-8080-exec-7 47
+0:0:0:0:0:0:0:1 - - [11/Mar/2019:23:46:26 -0700] "GET /test/rest HTTP/1.1" 500 4497 http-bio-8080-exec-1 80
+0:0:0:0:0:0:0:1 - - [11/Mar/2019:23:46:29 -0700] "GET /test/rest/hello/ HTTP/1.1" 500 4497 http-bio-8080-exec-2 50
+0:0:0:0:0:0:0:1 - - [11/Mar/2019:23:48:37 -0700] "GET /test/rest HTTP/1.1" 500 4497 http-bio-8080-exec-1 82
+0:0:0:0:0:0:0:1 - - [11/Mar/2019:23:48:39 -0700] "GET /test/rest HTTP/1.1" 500 4497 http-bio-8080-exec-2 47
+0:0:0:0:0:0:0:1 - - [11/Mar/2019:23:48:42 -0700] "GET /test/rest/hello/ HTTP/1.1" 500 4497 http-bio-8080-exec-3 36
+0:0:0:0:0:0:0:1 - - [11/Mar/2019:23:48:45 -0700] "GET /test/rest/hello/ HTTP/1.1" 500 4497 http-bio-8080-exec-4 50
+0:0:0:0:0:0:0:1 - - [11/Mar/2019:23:50:04 -0700] "GET /test/rest/hello/ HTTP/1.1" 500 4497 http-bio-8080-exec-1 63
+0:0:0:0:0:0:0:1 - - [11/Mar/2019:23:52:21 -0700] "GET /test/rest/hello/ HTTP/1.1" 200 21 http-bio-8080-exec-1 34
